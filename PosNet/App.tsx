@@ -19,7 +19,7 @@ import React from 'react';
 import * as tf from '@tensorflow/tfjs';
 import '@tensorflow/tfjs-react-native';
 import {ActivityIndicator, Dimensions, Platform, SafeAreaView, StyleSheet, Text, TouchableHighlight, View} from 'react-native';
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as svgComponents from 'react-native-svg';
 
 import * as Permissions from 'expo-permissions';
